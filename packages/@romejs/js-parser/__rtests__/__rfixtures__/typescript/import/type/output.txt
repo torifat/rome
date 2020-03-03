@@ -1,0 +1,767 @@
+Program {
+  comments: Array []
+  diagnostics: Array []
+  directives: Array []
+  filename: 'input.ts'
+  hasHoistedVars: false
+  interpreter: undefined
+  mtime: undefined
+  sourceType: 'module'
+  syntax: Array ['ts']
+  loc: Object {
+    filename: 'input.ts'
+    end: Object {
+      column: 0
+      index: 232
+      line: 8
+    }
+    start: Object {
+      column: 0
+      index: 0
+      line: 1
+    }
+  }
+  body: Array [
+    ImportDeclaration {
+      importKind: 'type'
+      loc: Object {
+        filename: 'input.ts'
+        end: Object {
+          column: 28
+          index: 28
+          line: 1
+        }
+        start: Object {
+          column: 0
+          index: 0
+          line: 1
+        }
+      }
+      source: StringLiteral {
+        value: 'foo'
+        loc: Object {
+          filename: 'input.ts'
+          end: Object {
+            column: 27
+            index: 27
+            line: 1
+          }
+          start: Object {
+            column: 22
+            index: 22
+            line: 1
+          }
+        }
+      }
+      specifiers: Array [
+        ImportDefaultSpecifier {
+          loc: Object {
+            filename: 'input.ts'
+            end: Object {
+              column: 16
+              index: 16
+              line: 1
+            }
+            start: Object {
+              column: 0
+              index: 0
+              line: 1
+            }
+          }
+          local: ImportSpecifierLocal {
+            name: BindingIdentifier {
+              name: 'Def1'
+              loc: Object {
+                filename: 'input.ts'
+                end: Object {
+                  column: 16
+                  index: 16
+                  line: 1
+                }
+                start: Object {
+                  column: 12
+                  index: 12
+                  line: 1
+                }
+              }
+            }
+            importKind: 'type'
+            loc: Object {
+              filename: 'input.ts'
+              end: Object {
+                column: 16
+                index: 16
+                line: 1
+              }
+              start: Object {
+                column: 12
+                index: 12
+                line: 1
+              }
+            }
+          }
+        }
+      ]
+    }
+    ImportDeclaration {
+      importKind: 'type'
+      loc: Object {
+        filename: 'input.ts'
+        end: Object {
+          column: 32
+          index: 61
+          line: 2
+        }
+        start: Object {
+          column: 0
+          index: 29
+          line: 2
+        }
+      }
+      source: StringLiteral {
+        value: 'foo'
+        loc: Object {
+          filename: 'input.ts'
+          end: Object {
+            column: 31
+            index: 60
+            line: 2
+          }
+          start: Object {
+            column: 26
+            index: 55
+            line: 2
+          }
+        }
+      }
+      specifiers: Array [
+        ImportSpecifier {
+          loc: Object {
+            filename: 'input.ts'
+            end: Object {
+              column: 19
+              index: 48
+              line: 2
+            }
+            start: Object {
+              column: 13
+              index: 42
+              line: 2
+            }
+          }
+          imported: Identifier {
+            name: 'named1'
+            loc: Object {
+              filename: 'input.ts'
+              end: Object {
+                column: 19
+                index: 48
+                line: 2
+              }
+              start: Object {
+                column: 13
+                index: 42
+                line: 2
+              }
+            }
+          }
+          local: ImportSpecifierLocal {
+            name: BindingIdentifier {
+              name: 'named1'
+              loc: Object {
+                filename: 'input.ts'
+                end: Object {
+                  column: 19
+                  index: 48
+                  line: 2
+                }
+                start: Object {
+                  column: 13
+                  index: 42
+                  line: 2
+                }
+              }
+            }
+            importKind: undefined
+            loc: Object {
+              filename: 'input.ts'
+              end: Object {
+                column: 19
+                index: 48
+                line: 2
+              }
+              start: Object {
+                column: 13
+                index: 42
+                line: 2
+              }
+            }
+          }
+        }
+      ]
+    }
+    ImportDeclaration {
+      importKind: 'type'
+      loc: Object {
+        filename: 'input.ts'
+        end: Object {
+          column: 38
+          index: 100
+          line: 3
+        }
+        start: Object {
+          column: 0
+          index: 62
+          line: 3
+        }
+      }
+      source: StringLiteral {
+        value: 'foo'
+        loc: Object {
+          filename: 'input.ts'
+          end: Object {
+            column: 37
+            index: 99
+            line: 3
+          }
+          start: Object {
+            column: 32
+            index: 94
+            line: 3
+          }
+        }
+      }
+      specifiers: Array [
+        ImportDefaultSpecifier {
+          loc: Object {
+            filename: 'input.ts'
+            end: Object {
+              column: 16
+              index: 78
+              line: 3
+            }
+            start: Object {
+              column: 0
+              index: 62
+              line: 3
+            }
+          }
+          local: ImportSpecifierLocal {
+            name: BindingIdentifier {
+              name: 'Def2'
+              loc: Object {
+                filename: 'input.ts'
+                end: Object {
+                  column: 16
+                  index: 78
+                  line: 3
+                }
+                start: Object {
+                  column: 12
+                  index: 74
+                  line: 3
+                }
+              }
+            }
+            importKind: 'type'
+            loc: Object {
+              filename: 'input.ts'
+              end: Object {
+                column: 16
+                index: 78
+                line: 3
+              }
+              start: Object {
+                column: 12
+                index: 74
+                line: 3
+              }
+            }
+          }
+        }
+        ImportSpecifier {
+          loc: Object {
+            filename: 'input.ts'
+            end: Object {
+              column: 25
+              index: 87
+              line: 3
+            }
+            start: Object {
+              column: 19
+              index: 81
+              line: 3
+            }
+          }
+          imported: Identifier {
+            name: 'named2'
+            loc: Object {
+              filename: 'input.ts'
+              end: Object {
+                column: 25
+                index: 87
+                line: 3
+              }
+              start: Object {
+                column: 19
+                index: 81
+                line: 3
+              }
+            }
+          }
+          local: ImportSpecifierLocal {
+            name: BindingIdentifier {
+              name: 'named2'
+              loc: Object {
+                filename: 'input.ts'
+                end: Object {
+                  column: 25
+                  index: 87
+                  line: 3
+                }
+                start: Object {
+                  column: 19
+                  index: 81
+                  line: 3
+                }
+              }
+            }
+            importKind: undefined
+            loc: Object {
+              filename: 'input.ts'
+              end: Object {
+                column: 25
+                index: 87
+                line: 3
+              }
+              start: Object {
+                column: 19
+                index: 81
+                line: 3
+              }
+            }
+          }
+        }
+      ]
+    }
+    ImportDeclaration {
+      importKind: 'type'
+      loc: Object {
+        filename: 'input.ts'
+        end: Object {
+          column: 31
+          index: 132
+          line: 4
+        }
+        start: Object {
+          column: 0
+          index: 101
+          line: 4
+        }
+      }
+      source: StringLiteral {
+        value: 'foo'
+        loc: Object {
+          filename: 'input.ts'
+          end: Object {
+            column: 30
+            index: 131
+            line: 4
+          }
+          start: Object {
+            column: 25
+            index: 126
+            line: 4
+          }
+        }
+      }
+      specifiers: Array [
+        ImportDefaultSpecifier {
+          loc: Object {
+            filename: 'input.ts'
+            end: Object {
+              column: 19
+              index: 120
+              line: 4
+            }
+            start: Object {
+              column: 0
+              index: 101
+              line: 4
+            }
+          }
+          local: ImportSpecifierLocal {
+            name: BindingIdentifier {
+              name: 'switch1'
+              loc: Object {
+                filename: 'input.ts'
+                end: Object {
+                  column: 19
+                  index: 120
+                  line: 4
+                }
+                start: Object {
+                  column: 12
+                  index: 113
+                  line: 4
+                }
+              }
+            }
+            importKind: 'type'
+            loc: Object {
+              filename: 'input.ts'
+              end: Object {
+                column: 19
+                index: 120
+                line: 4
+              }
+              start: Object {
+                column: 12
+                index: 113
+                line: 4
+              }
+            }
+          }
+        }
+      ]
+    }
+    ImportDeclaration {
+      importKind: 'type'
+      loc: Object {
+        filename: 'input.ts'
+        end: Object {
+          column: 35
+          index: 168
+          line: 5
+        }
+        start: Object {
+          column: 0
+          index: 133
+          line: 5
+        }
+      }
+      source: StringLiteral {
+        value: 'foo'
+        loc: Object {
+          filename: 'input.ts'
+          end: Object {
+            column: 34
+            index: 167
+            line: 5
+          }
+          start: Object {
+            column: 29
+            index: 162
+            line: 5
+          }
+        }
+      }
+      specifiers: Array [
+        ImportSpecifier {
+          loc: Object {
+            filename: 'input.ts'
+            end: Object {
+              column: 21
+              index: 154
+              line: 5
+            }
+            start: Object {
+              column: 14
+              index: 147
+              line: 5
+            }
+          }
+          imported: Identifier {
+            name: 'switch2'
+            loc: Object {
+              filename: 'input.ts'
+              end: Object {
+                column: 21
+                index: 154
+                line: 5
+              }
+              start: Object {
+                column: 14
+                index: 147
+                line: 5
+              }
+            }
+          }
+          local: ImportSpecifierLocal {
+            name: BindingIdentifier {
+              name: 'switch2'
+              loc: Object {
+                filename: 'input.ts'
+                end: Object {
+                  column: 21
+                  index: 154
+                  line: 5
+                }
+                start: Object {
+                  column: 14
+                  index: 147
+                  line: 5
+                }
+              }
+            }
+            importKind: undefined
+            loc: Object {
+              filename: 'input.ts'
+              end: Object {
+                column: 21
+                index: 154
+                line: 5
+              }
+              start: Object {
+                column: 14
+                index: 147
+                line: 5
+              }
+            }
+          }
+        }
+      ]
+    }
+    ImportDeclaration {
+      importKind: 'type'
+      loc: Object {
+        filename: 'input.ts'
+        end: Object {
+          column: 38
+          index: 207
+          line: 6
+        }
+        start: Object {
+          column: 0
+          index: 169
+          line: 6
+        }
+      }
+      source: StringLiteral {
+        value: 'baz'
+        loc: Object {
+          filename: 'input.ts'
+          end: Object {
+            column: 37
+            index: 206
+            line: 6
+          }
+          start: Object {
+            column: 32
+            index: 201
+            line: 6
+          }
+        }
+      }
+      specifiers: Array [
+        ImportSpecifier {
+          loc: Object {
+            filename: 'input.ts'
+            end: Object {
+              column: 18
+              index: 187
+              line: 6
+            }
+            start: Object {
+              column: 14
+              index: 183
+              line: 6
+            }
+          }
+          imported: Identifier {
+            name: 'foo1'
+            loc: Object {
+              filename: 'input.ts'
+              end: Object {
+                column: 18
+                index: 187
+                line: 6
+              }
+              start: Object {
+                column: 14
+                index: 183
+                line: 6
+              }
+            }
+          }
+          local: ImportSpecifierLocal {
+            name: BindingIdentifier {
+              name: 'foo1'
+              loc: Object {
+                filename: 'input.ts'
+                end: Object {
+                  column: 18
+                  index: 187
+                  line: 6
+                }
+                start: Object {
+                  column: 14
+                  index: 183
+                  line: 6
+                }
+              }
+            }
+            importKind: undefined
+            loc: Object {
+              filename: 'input.ts'
+              end: Object {
+                column: 18
+                index: 187
+                line: 6
+              }
+              start: Object {
+                column: 14
+                index: 183
+                line: 6
+              }
+            }
+          }
+        }
+        ImportSpecifier {
+          loc: Object {
+            filename: 'input.ts'
+            end: Object {
+              column: 24
+              index: 193
+              line: 6
+            }
+            start: Object {
+              column: 20
+              index: 189
+              line: 6
+            }
+          }
+          imported: Identifier {
+            name: 'bar1'
+            loc: Object {
+              filename: 'input.ts'
+              end: Object {
+                column: 24
+                index: 193
+                line: 6
+              }
+              start: Object {
+                column: 20
+                index: 189
+                line: 6
+              }
+            }
+          }
+          local: ImportSpecifierLocal {
+            name: BindingIdentifier {
+              name: 'bar1'
+              loc: Object {
+                filename: 'input.ts'
+                end: Object {
+                  column: 24
+                  index: 193
+                  line: 6
+                }
+                start: Object {
+                  column: 20
+                  index: 189
+                  line: 6
+                }
+              }
+            }
+            importKind: undefined
+            loc: Object {
+              filename: 'input.ts'
+              end: Object {
+                column: 24
+                index: 193
+                line: 6
+              }
+              start: Object {
+                column: 20
+                index: 189
+                line: 6
+              }
+            }
+          }
+        }
+      ]
+    }
+    ImportDeclaration {
+      importKind: undefined
+      loc: Object {
+        filename: 'input.ts'
+        end: Object {
+          column: 23
+          index: 231
+          line: 7
+        }
+        start: Object {
+          column: 0
+          index: 208
+          line: 7
+        }
+      }
+      source: StringLiteral {
+        value: 'foo'
+        loc: Object {
+          filename: 'input.ts'
+          end: Object {
+            column: 22
+            index: 230
+            line: 7
+          }
+          start: Object {
+            column: 17
+            index: 225
+            line: 7
+          }
+        }
+      }
+      specifiers: Array [
+        ImportDefaultSpecifier {
+          loc: Object {
+            filename: 'input.ts'
+            end: Object {
+              column: 11
+              index: 219
+              line: 7
+            }
+            start: Object {
+              column: 0
+              index: 208
+              line: 7
+            }
+          }
+          local: ImportSpecifierLocal {
+            name: BindingIdentifier {
+              name: 'type'
+              loc: Object {
+                filename: 'input.ts'
+                end: Object {
+                  column: 11
+                  index: 219
+                  line: 7
+                }
+                start: Object {
+                  column: 7
+                  index: 215
+                  line: 7
+                }
+              }
+            }
+            importKind: undefined
+            loc: Object {
+              filename: 'input.ts'
+              end: Object {
+                column: 11
+                index: 219
+                line: 7
+              }
+              start: Object {
+                column: 7
+                index: 215
+                line: 7
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
